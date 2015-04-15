@@ -2,3 +2,6 @@ lxml
 requests
 xml.dom.minidom
 json
+gevent
+requests
+sys

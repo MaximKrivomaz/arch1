@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <bank>
+         <name>PrivatBank</name>
+         <link>https://privatbank.ua/ua/</link>
+         <xpath>//table[@id="course-table-nbu"]/tr/td/text()</xpath>
+    </bank>
+    <bank>
+          <name>AlfaBank</name>
+          <link>http://www.alfabank.ua/</link>
+          <xpath>//div[@class="tab_open tab-curs"]/table/tr/td/text()</xpath>
+    </bank>
+     <bank>
+          <name>OtpBank</name>
+          <link>http://ru.otpbank.com.ua/</link>
+          <xpath>//div[@class="currency-rates-center"]/table/tbody/tr/td/text()</xpath>
+    </bank>
+</list>

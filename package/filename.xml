@@ -1,0 +1,21 @@
+<html>
+	<bank>
+		<name>OtpBank</name>
+		<link>http://ru.otpbank.com.ua/</link>
+		<xpath>//div[@class="currency-rates-center"]/table/tbody/tr/td/text()</xpath>
+		<resultQuery>USD24.000025.000022.8820EUR25.200026.500024.1863CHF24.400025.700023.2784</resultQuery>
+	</bank>
+	<bank>
+		<name>PrivatBank</name>
+		<link>https://privatbank.ua/ua/</link>
+		<xpath>//table[@id="course-table-nbu"]/tr/td/text()</xpath>
+		<resultQuery>EUR/UAH24.1863USD/UAH22.882RUB/UAH0.4481</resultQuery>
+	</bank>
+	<bank>
+		<name>AlfaBank</name>
+		<link>http://www.alfabank.ua/</link>
+		<xpath>//div[@class="tab_open tab-curs"]/table/tr/td/text()</xpath>
+		<resultQuery>-22.88224/2524.186325.2/26.60.448070.44/0.495</resultQuery>
+	</bank>
+	<time>0.403800964355</time>
+<bank><name>myName</name><link>http://test.com</link><xpath>myXpath</xpath><resultQuery>null</resultQuery></bank></html>
